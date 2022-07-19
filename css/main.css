@@ -20,39 +20,37 @@
   --color-contact-footer: rgba(255, 255, 255, 0.6);
   --color-icon-client: #afb1b8;
   --color-icon-company: #afb1b8;
-  --color-icon-social-staff: #afb1b8;
+  --color-icon-social-team: #afb1b8;
   --color-input-footer: rgba(255, 255, 255, 0.6);
   --color-logo-header: #000000;
   --color-placeholder-modal: rgba(117, 117, 117, 0.5);
-  --color-text-modal: #757575;
-  --bg-preference: #f5f4fa;
-  --bg-backdrop: rgba(0, 0, 0, 0.2);
-  --bg-btn-hover: #188ce8;
-  --bg-btn-primary: #2196f3;
-  --bg-btn-secondary: #f5f4fa;
-  --bg-client: transparent;
-  --bg-department: rgba(47, 48, 58, 0.8);
-  --bg-footer: #2f303a;
-  --bg-hero: #c4c4c4;
-  --bg-link-social-staff: transparent;
-  --bg-overlay-card-portfolio: rgba(33, 150, 243, 0.9);
-  --bg-section-staff: #f5f4fa;
-  --bg-social-icon-footer: rgba(255, 255, 255, 0.1);
+  --bcg-preference: #f5f4fa;
+  --bcg-backdrop: rgba(0, 0, 0, 0.2);
+  --bcg-btn-hover: #188ce8;
+  --bcg-btn-primary: #2196f3;
+  --bcg-btn-secondary: #f5f4fa;
+  --bcg-client: transparent;
+  --bcg-work: rgba(47, 48, 58, 0.8);
+  --bcg-footer: #2f303a;
+  --bcg-hero: #c4c4c4;
+  --bcg-link-social-team: transparent;
+  --bcg-overlay-card-portfolio: rgba(33, 150, 243, 0.9);
+  --bcg-section-team: #f5f4fa;
+  --bcg-social-icon-footer: rgba(255, 255, 255, 0.1);
   --duration-primary: 250ms;
   --font-family-primary: 'Roboto', sans-serif;
   --font-family-secondary: 'Raleway', sans-serif;
   --font-size-primary: 14px;
   --letter-spacing-primary: 0.03em;
   --line-height-primary: 1.14;
-  --gap-h: 30px;
-  --gap-v: 30px;
+  --gap: 30px;
   --margin-menu-item: 50px;
   --padding-container: 15px;
   --padding-hero: 200px;
   --padding-modal: 40px;
   --padding-section: 94px;
   --radius-board-primary: 4px;
-  --shadow-card-staff: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  --shadow-card-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   --shadow-btn: 0px 4px 4px rgba(0, 0, 0, 0.15);
   --shadow-btn-filter: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -183,7 +181,7 @@ address {
   margin-bottom: 20px;
 }
 
-.department__title, .staff__title, .client__title {
+.workt__title, .team__title, .client__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -221,7 +219,7 @@ address {
 
 .button:hover,
 .button:focus {
-  background-color: var(--bg-btn-hover);
+  background-color: var(--bcg-btn-hover);
 }
 
 .section {
@@ -268,7 +266,7 @@ address {
   color: inherit;
   border: none;
   border-radius: 50%;
-  background-color: var(--bg-social-icon-footer);
+  background-color: var(--bcg-social-icon-footer);
   padding: 12px;
   -webkit-transition: background-color var(--duration-primary) var(--timing-primary);
   transition: background-color var(--duration-primary) var(--timing-primary);
@@ -279,7 +277,7 @@ address {
 }
 
 .social__link--refill {
-  color: var(--color-icon-social-staff);
+  color: var(--color-icon-social-team);
   -webkit-transition: color var(--duration-primary) var(--timing-primary);
   transition: color var(--duration-primary) var(--timing-primary);
 }
@@ -461,7 +459,7 @@ address {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-img.jpg");
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-img.jpg");
   background-size: cover;
-  background-color: var(--bg-hero);
+  background-color: var(--bcg-hero);
   color: var(--primary-white-color);
   text-align: center;
   padding-top: var(--padding-hero);
@@ -483,7 +481,7 @@ address {
   left: 0;
   width: 100%;
   min-height: 100%;
-  background-color: var(--bg-backdrop);
+  background-color: var(--bcg-backdrop);
   visibility: visible;
   -webkit-transition: visibility var(--duration-primary) var(--timing-primary);
   transition: visibility var(--duration-primary) var(--timing-primary);
@@ -616,7 +614,7 @@ address {
   border: 1px solid var(--color-board-input-modal);
   border-radius: var(--radius-board-primary);
   padding-left: 42px;
-  color: var(--color-text-modal);
+  color: var(--primary-text-color);
   -webkit-transition: border var(--duration-primary) var(--timing-primary);
   transition: border var(--duration-primary) var(--timing-primary);
 }
@@ -643,7 +641,7 @@ address {
   min-height: 120px;
   border: 1px solid var(--color-board-input-modal);
   border-radius: var(--radius-board-primary);
-  color: var(--color-text-modal);
+  color: var(--primary-text-color);
   padding: 12px 16px;
   margin: 0;
   resize: none;
@@ -683,7 +681,7 @@ address {
   padding-left: 24px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--color-text-modal);
+  color: var(--primary-text-color);
 }
 
 .form__checkbox-link {
@@ -733,7 +731,7 @@ address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: var(--gap-h);
+  gap: var(--gap);
 }
 
 .preference__item {
@@ -752,7 +750,7 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: var(--bg-preference);
+  background-color: var(--bcg-preference);
   margin-bottom: 30px;
 }
 
@@ -771,7 +769,7 @@ address {
   text-align: left;
 }
 
-.department__list {
+.work__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -783,11 +781,11 @@ address {
           align-items: stretch;
 }
 
-.department__item {
+.work__item {
   position: relative;
 }
 
-.department__subtitle {
+.work__subtitle {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -806,14 +804,14 @@ address {
   font-size: 14px;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background-color: var(--bg-department);
+  background-color: var(--bcg-work);
 }
 
-.staff {
-  background-color: var(--bg-section-staff);
+.team {
+  background-color: var(--bcg-section-team);
 }
 
-.staff__card-set {
+.team__card-set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -823,27 +821,27 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: calc(-1 * var(--gap-h));
-  margin-top: calc(-1 * var(--gap-v));
+  margin-left: calc(-1 * var(--gap));
+  margin-top: calc(-1 * var(--gap));
 }
 
-.staff__card {
-  -ms-flex-preferred-size: calc(100% / 4 - var(--gap-h));
-      flex-basis: calc(100% / 4 - var(--gap-h));
-  margin-left: var(--gap-h);
-  margin-top: var(--gap-v);
+.team__card {
+  -ms-flex-preferred-size: calc(100% / 4 - var(--gap));
+      flex-basis: calc(100% / 4 - var(--gap));
+  margin-left: var(--gap);
+  margin-top: var(--gap);
   border-radius: 0px 0px 4px 4px;
-  -webkit-box-shadow: var(--shadow-card-staff);
-          box-shadow: var(--shadow-card-staff);
+  -webkit-box-shadow: var(--shadow-card-team);
+          box-shadow: var(--shadow-card-team);
 }
 
-.staff__description {
+.team__description {
   background-color: var(--primary-white-color);
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.staff__name {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -851,7 +849,7 @@ address {
   margin-bottom: 10px;
 }
 
-.staff__position {
+.team__position {
   font-size: 16px;
   line-height: 1.19;
   color: var(--primary-text-color);
@@ -869,15 +867,15 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: calc(-1 * var(--gap-h));
-  margin-top: calc(-1 * var(--gap-v));
+  margin-left: calc(-1 * var(--gap));
+  margin-top: calc(-1 * var(--gap));
 }
 
 .client__item {
-  -ms-flex-preferred-size: calc(100% / 6 - var(--gap-h));
-      flex-basis: calc(100% / 6 - var(--gap-h));
-  margin-left: var(--gap-h);
-  margin-top: var(--gap-v);
+  -ms-flex-preferred-size: calc(100% / 6 - var(--gap));
+      flex-basis: calc(100% / 6 - var(--gap));
+  margin-left: var(--gap);
+  margin-top: var(--gap);
 }
 
 .client__link {
@@ -895,7 +893,7 @@ address {
   width: 170px;
   height: 92px;
   color: var(--color-icon-client);
-  background-color: var(--bg-client);
+  background-color: var(--bcg-client);
   border: 1px solid var(--color-board-client);
   border-radius: var(--radius-board-primary);
   -webkit-transition: color var(--duration-primary) var(--timing-primary), border var(--duration-primary) var(--timing-primary);
@@ -926,7 +924,7 @@ address {
 }
 
 .portfolio__button {
-  background-color: var(--bg-btn-secondary);
+  background-color: var(--bcg-btn-secondary);
   color: var(--title-text-color);
   border: none;
   border-radius: 4px;
@@ -946,12 +944,12 @@ address {
 }
 
 .portfolio__button--accent {
-  background-color: var(--bg-btn-primary);
+  background-color: var(--bcg-btn-primary);
   color: var(--primary-white-color);
 }
 
 .portfolio__button:hover, .portfolio__button:focus {
-  background-color: var(--bg-btn-primary);
+  background-color: var(--bcg-btn-primary);
   color: var(--primary-white-color);
   -webkit-box-shadow: var(--shadow-btn-filter);
           box-shadow: var(--shadow-btn-filter);
@@ -963,16 +961,16 @@ address {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-left: calc(-1 * var(--gap-h));
-  margin-top: calc(-1 * var(--gap-v));
+  margin-left: calc(-1 * var(--gap));
+  margin-top: calc(-1 * var(--gap));
   text-align: left;
 }
 
 .portfolio__card {
-  -ms-flex-preferred-size: calc(100% / 3 - var(--gap-h));
-      flex-basis: calc(100% / 3 - var(--gap-h));
-  margin-left: var(--gap-h);
-  margin-top: var(--gap-v);
+  -ms-flex-preferred-size: calc(100% / 3 - var(--gap));
+      flex-basis: calc(100% / 3 - var(--gap));
+  margin-left: var(--gap);
+  margin-top: var(--gap);
 }
 
 .portfolio__card-link {
@@ -1008,7 +1006,7 @@ address {
   width: 100%;
   height: 100%;
   color: var(--primary-white-color);
-  background-color: var(--bg-overlay-card-portfolio);
+  background-color: var(--bcg-overlay-card-portfolio);
   -webkit-transform: translatey(100%);
           transform: translatey(100%);
   -webkit-transition: -webkit-transform var(--duration-primary) var(--timing-primary);
@@ -1053,7 +1051,7 @@ address {
 /* footer */
 .footer {
   min-width: var(--width-container);
-  background-color: var(--bg-footer);
+  background-color: var(--bcg-footer);
   padding-top: 60px;
   padding-bottom: 60px;
 }

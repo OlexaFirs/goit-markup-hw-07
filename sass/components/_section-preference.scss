@@ -3,7 +3,7 @@
 }
 .preference__list {
   display: flex;
-  gap: var(--gap-h);
+  gap: var(--gap);
 }
 
 .preference__item {
@@ -15,7 +15,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--bg-preference);
+  background-color: var(--bcg-preference);
   margin-bottom: 30px;
 }
 

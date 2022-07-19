@@ -1,15 +1,15 @@
 .portfolio__card-set {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * var(--gap-h));
-  margin-top: calc(-1 * var(--gap-v));
+  margin-left: calc(-1 * var(--gap));
+  margin-top: calc(-1 * var(--gap));
   text-align: left;
 }
 
 .portfolio__card {
-  flex-basis: calc(100% / 3 - var(--gap-h));
-  margin-left: var(--gap-h);
-  margin-top: var(--gap-v);
+  flex-basis: calc(100% / 3 - var(--gap));
+  margin-left: var(--gap);
+  margin-top: var(--gap);
 }
 
 .portfolio__card-link {
@@ -41,7 +41,7 @@
   height: 100%;
 
   color: var(--primary-white-color);
-  background-color: var(--bg-overlay-card-portfolio);
+  background-color: var(--bcg-overlay-card-portfolio);
 
   transform: translatey(100%);
   transition: transform var(--duration-primary) var(--timing-primary);

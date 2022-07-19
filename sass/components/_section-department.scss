@@ -1,16 +1,16 @@
-.department__title {
+.work__title {
   @extend %title;
 }
 
-.department__list {
+.work__list {
   @include positioning-flex($jc: space-between, $ai: stretch);
 }
 
-.department__item {
+.work__item {
   position: relative;
 }
 
-.department__subtitle {
+.work__subtitle {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -21,5 +21,5 @@
   font-size: 14px;
   text-transform: uppercase;
   color: var(--primary-white-color);
-  background-color: var(--bg-department);
+  background-color: var(--bcg-work);
 }

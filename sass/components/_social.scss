@@ -26,7 +26,7 @@
   color: inherit;
   border: none;
   border-radius: 50%;
-  background-color: var(--bg-social-icon-footer);
+  background-color: var(--bcg-social-icon-footer);
   padding: 12px;
 
   transition: background-color var(--duration-primary) var(--timing-primary);
@@ -37,7 +37,7 @@
   }
 
   &--refill {
-    color: var(--color-icon-social-staff);
+    color: var(--color-icon-social-team);
     transition: color var(--duration-primary) var(--timing-primary);
   }
 

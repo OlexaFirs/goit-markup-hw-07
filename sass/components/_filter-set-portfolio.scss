@@ -12,7 +12,7 @@
 }
 
 .portfolio__button {
-  background-color: var(--bg-btn-secondary);
+  background-color: var(--bcg-btn-secondary);
   color: var(--title-text-color);
   border: none;
   border-radius: 4px;
@@ -30,13 +30,13 @@
     box-shadow var(--duration-primary) var(--timing-primary);
 
   &--accent {
-    background-color: var(--bg-btn-primary);
+    background-color: var(--bcg-btn-primary);
     color: var(--primary-white-color);
   }
 
   &:hover,
   &:focus {
-    background-color: var(--bg-btn-primary);
+    background-color: var(--bcg-btn-primary);
     color: var(--primary-white-color);
     box-shadow: var(--shadow-btn-filter);
   }

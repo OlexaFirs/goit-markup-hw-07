@@ -1,0 +1,7 @@
+.team {
+  background-color: var(--bcg-section-team);
+
+  &__title {
+    @extend %title;
+  }
+}
