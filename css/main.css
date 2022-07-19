@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --title-text-color: #212121;
+  --primary-text-color: #757575;
 
 
 
@@ -19,17 +20,13 @@
   --color-contact-footer: rgba(255, 255, 255, 0.6);
   --color-icon-client: #afb1b8;
   --color-icon-company: #afb1b8;
-  --color-icon-modal: #212121;
   --color-icon-social-staff: #afb1b8;
   --color-input-footer: rgba(255, 255, 255, 0.6);
-  --color-label-modal: #757575;
   --color-link-header: #757575;
   --color-logo-header: #000000;
-  --color-menu-header: #212121;
   --color-p: #757575;
   --color-placeholder-modal: rgba(117, 117, 117, 0.5);
   --color-text-modal: #757575;
-  --color-title-modal: #212121;
   --bg-preference: #f5f4fa;
   --bg-backdrop: rgba(0, 0, 0, 0.2);
   --bg-btn-hover: #188ce8;
@@ -230,7 +227,6 @@ address {
 
 .section {
   min-width: var(--width-container);
-  max-width: var(--width-page);
   padding-top: var(--padding-section);
   padding-bottom: var(--padding-section);
   margin: 0 auto;
@@ -373,7 +369,7 @@ address {
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: var(--color-menu-header);
+  color: var(--title-text-color);
   -webkit-transition: color var(--duration-primary) var(--timing-primary);
   transition: color var(--duration-primary) var(--timing-primary);
 }
@@ -582,16 +578,17 @@ address {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
-  color: var(--color-title-modal);
   margin-bottom: 12px;
+  text-align: center;
+  color: var(--title-text-color);
+  
 }
 
 .form__field-group {
+  margin-bottom: 20px;
   width: 100%;
   font-size: 16px;
   line-height: 1.125;
-  margin-bottom: 20px;
 }
 
 .form__field {
@@ -609,7 +606,7 @@ address {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--color-label-modal);
+  color: var(--primary-text-color);
   padding: 0;
   margin-bottom: 4px;
 }
@@ -636,7 +633,7 @@ address {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  fill: var(--color-icon-modal);
+  fill: var(--title-text-color);
   -webkit-transition: fill var(--duration-primary) var(--timing-primary);
   transition: fill var(--duration-primary) var(--timing-primary);
 }

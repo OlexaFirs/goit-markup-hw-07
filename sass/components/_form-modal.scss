@@ -13,7 +13,7 @@
   line-height: 1.15;
   text-align: center;
 
-  color: var(--color-title-modal);
+  color: var(--title-text-color);
   margin-bottom: 12px;
 }
 
@@ -40,7 +40,7 @@
   line-height: 1.17;
   letter-spacing: 0.01em;
 
-  color: var(--color-label-modal);
+  color: var(--primary-text-color);
   padding: 0;
   margin-bottom: 4px;
 }
@@ -68,7 +68,7 @@
   top: 50%;
   transform: translateY(-50%);
 
-  fill: var(--color-icon-modal);
+  fill: var(--title-text-color);
 
   transition: fill var(--duration-primary) var(--timing-primary);
 }

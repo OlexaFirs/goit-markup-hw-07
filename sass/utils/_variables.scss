@@ -2,12 +2,18 @@
 --accent-color: #2196f3;
 --primary-white-color: #ffffff;
 --title-text-color: #212121;
+--primary-text-color: #757575;
 
 
 
-    --color-icon-modal: #212121;
-    --color-menu-header: #212121;
-    --color-title-modal: #212121;
+
+
+  --color-link-header: #757575;
+  --color-p: #757575;
+  --color-text-modal: #757575;
+
+
+
 
   --color-board-btn-close: rgba(0, 0, 0, 0.1);
   --color-board-card: #eeeeee;
@@ -17,58 +23,43 @@
   --color-board-input-modal: rgba(33, 33, 33, 0.2);
   --color-board-input-modal-accent: #2196f3;
   --color-btn-close: #000000;
-
   --color-contact-footer: rgba(255, 255, 255, 0.6);
-
   --color-icon-client: #afb1b8;
   --color-icon-company: #afb1b8;
-
   --color-icon-social-staff: #afb1b8;
   --color-input-footer: rgba(255, 255, 255, 0.6);
-  --color-label-modal: #757575;
-  --color-link-header: #757575;
+
   --color-logo-header: #000000;
 
-  --color-p: #757575;
   --color-placeholder-modal: rgba(117, 117, 117, 0.5);
-  --color-text-modal: #757575;
 
   --bg-preference: #f5f4fa;
   --bg-backdrop: rgba(0, 0, 0, 0.2);
   --bg-btn-hover: #188ce8;
   --bg-btn-primary: #2196f3;
   --bg-btn-secondary: #f5f4fa;
-
   --bg-client: transparent;
   --bg-department: rgba(47, 48, 58, 0.8);
   --bg-footer: #2f303a;
-
   --bg-hero: #c4c4c4;
   --bg-link-social-staff: transparent;
   --bg-overlay-card-portfolio: rgba(33, 150, 243, 0.9);
   --bg-section-staff: #f5f4fa;
   --bg-social-icon-footer: rgba(255, 255, 255, 0.1);
-
   --duration-primary: 250ms;
-
   --font-family-primary: 'Roboto', sans-serif;
   --font-family-secondary: 'Raleway', sans-serif;
   --font-size-primary: 14px;
   --letter-spacing-primary: 0.03em;
   --line-height-primary: 1.14;
-
   --gap-h: 30px;
   --gap-v: 30px;
-
   --margin-menu-item: 50px;
-
   --padding-container: 15px;
   --padding-hero: 200px;
   --padding-modal: 40px;
   --padding-section: 94px;
-
   --radius-board-primary: 4px;
-
   --shadow-card-staff: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   --shadow-btn: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -76,9 +67,7 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
   --shadow-modal: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-
   --timing-primary: cubic-bezier(0.4, 0, 0.2, 1);
-
   --width-container: 1200px;
   --width-page: 1600px;
   --width-form-modal: 448px;
