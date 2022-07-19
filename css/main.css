@@ -5,17 +5,12 @@
   --primary-white-color: #ffffff;
   --title-text-color: #212121;
   --primary-text-color: #757575;
-
-
-
-
   --color-board-btn-close: rgba(0, 0, 0, 0.1);
   --color-board-card: #eeeeee;
   --color-board-client: #afb1b8;
   --color-board-header: #ececec;
   --color-board-input-footer: rgba(255, 255, 255, 0.3);
   --color-board-input-modal: rgba(33, 33, 33, 0.2);
-  --color-board-input-modal-accent: #2196f3;
   --color-btn-close: #000000;
   --color-contact-footer: rgba(255, 255, 255, 0.6);
   --color-icon-client: #afb1b8;
@@ -27,7 +22,6 @@
   --bcg-preference: #f5f4fa;
   --bcg-backdrop: rgba(0, 0, 0, 0.2);
   --bcg-btn-hover: #188ce8;
-  --bcg-btn-primary: #2196f3;
   --bcg-btn-secondary: #f5f4fa;
   --bcg-client: transparent;
   --bcg-work: rgba(47, 48, 58, 0.8);
@@ -620,7 +614,7 @@ address {
 }
 
 .form__input:focus-within {
-  border: 1px solid var(--color-board-input-modal-accent);
+  border: 1px solid var(--accent-color);
 }
 
 .form__icon {
@@ -650,7 +644,7 @@ address {
 }
 
 .form__textarea:focus-within {
-  border: 1px solid var(--color-board-input-modal-accent);
+  border: 1px solid var(--accent-color);
 }
 
 .form__textarea::-webkit-input-placeholder {
@@ -944,12 +938,12 @@ address {
 }
 
 .portfolio__button--accent {
-  background-color: var(--bcg-btn-primary);
+  background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
 .portfolio__button:hover, .portfolio__button:focus {
-  background-color: var(--bcg-btn-primary);
+  background-color: var(--accent-color);
   color: var(--primary-white-color);
   -webkit-box-shadow: var(--shadow-btn-filter);
           box-shadow: var(--shadow-btn-filter);
