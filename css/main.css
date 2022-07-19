@@ -22,9 +22,7 @@
   --color-icon-company: #afb1b8;
   --color-icon-social-staff: #afb1b8;
   --color-input-footer: rgba(255, 255, 255, 0.6);
-  --color-link-header: #757575;
   --color-logo-header: #000000;
-  --color-p: #757575;
   --color-placeholder-modal: rgba(117, 117, 117, 0.5);
   --color-text-modal: #757575;
   --bg-preference: #f5f4fa;
@@ -110,7 +108,7 @@
 body {
   font-family: var(--font-family-primary);
   background-color: var(--primary-white-color);
-  color: var(--color-p);
+  color: var(--primary-text-color);
   font-size: var(--font-size-primary);
   letter-spacing: var(--letter-spacing-primary);
   line-height: var(--line-height-primary);
@@ -179,6 +177,7 @@ address {
 }
 
 .social__cta, .sign-up__cta {
+  color: var(--primary-white-color);
   display: block;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -432,7 +431,7 @@ address {
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: var(--color-link-header);
+  color: var(--primary-text-color);
   -webkit-transition: color var(--duration-primary) var(--timing-primary);
   transition: color var(--duration-primary) var(--timing-primary);
 }
@@ -855,7 +854,7 @@ address {
 .staff__position {
   font-size: 16px;
   line-height: 1.19;
-  color: var(--color-p);
+  color: var(--primary-text-color);
   background-color: var(--primary-white-color);
   margin-bottom: 16px;
 }
