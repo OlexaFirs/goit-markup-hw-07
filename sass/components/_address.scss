@@ -1,0 +1,35 @@
+.address__list {
+  display: block;
+  font-style: normal;
+  margin: 0;
+}
+
+.address__item {
+  line-height: 1.71;
+  color: var(--primary-white-color);
+  margin-bottom: 9px;
+}
+
+.address__email {
+  display: block;
+  text-decoration: none;
+  color: var(--color-contact-footer);
+  line-height: 1.71;
+  margin-bottom: 9px;
+  transition: color var(--duration-primary) var(--timing-primary);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.address__tel {
+  text-decoration: none;
+  color: var(--color-contact-footer);
+  line-height: 1.71;
+  transition: color var(--duration-primary) var(--timing-primary);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

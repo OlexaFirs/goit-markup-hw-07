@@ -1,22 +1,42 @@
-body{
-    background-color: blue($color: #000000);
-    color: red($color: #000000);
-}
+@import './utils/variables';
 
+@import './base/fonts';
+@import './base/general';
+@import './base/resets';
 
-$primary-text-color: #757575;
-$title-text-color: #212121;
-$accent-color: #2196f3;
-$logo-header-color: #000000;
-$footer-contact-text: rgba(255, 255, 255, 0.6);
-$primary-white-color: #ffffff;
-$intermediate-background-color: #f5f4fa;
-$secondary-background-color: #2f303a;
-$hover-main-btn: #188ce8;
-$font-family-primary: 'Roboto',
-sans-serif;
-$border-color: #ececec;
-$border-portfolio-color: #eeeeee;
-$hero-background: #c4c4c4;
-$client-color: #afb1b8;
-$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
+
+@import './components/button';
+@import './components/section';
+@import './components/container';
+@import './components/social';
+
+/* header */
+@import './components/header';
+@import './components/header-container';
+@import './components/logo';
+@import './components/nav';
+@import './components/contact-set';
+
+/* main */
+@import './components/section-hero';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/form-modal';
+@import './components/section-preference';
+@import './components/section-department';
+@import './components/section-staff';
+@import './components/card-set';
+@import './components/section-client';
+
+/* portfolio */
+@import './components/filter-set-portfolio';
+@import './components/card-set-portfolio';
+
+/* footer */
+@import './components/footer';
+@import './components/footer-container';
+@import './components/address';
+@import './components/form-sign-up';

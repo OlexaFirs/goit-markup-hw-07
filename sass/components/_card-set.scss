@@ -1,0 +1,35 @@
+.staff__card-set {
+  @include positioning-flex();
+  margin-left: calc(-1 * var(--gap-h));
+  margin-top: calc(-1 * var(--gap-v));
+}
+
+.staff__card {
+  flex-basis: calc(100% / 4 - var(--gap-h));
+  margin-left: var(--gap-h);
+  margin-top: var(--gap-v);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: var(--shadow-card-staff);
+}
+
+.staff__description {
+  background-color: var(--primary-white-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.staff__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--color-h-third);
+  margin-bottom: 10px;
+}
+
+.staff__position {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--color-p);
+  background-color: var(--primary-white-color);
+  margin-bottom: 16px;
+}

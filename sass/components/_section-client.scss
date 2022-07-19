@@ -1,0 +1,38 @@
+.client__title {
+  @extend %title;
+}
+
+.client__list {
+  @include positioning-flex();
+  margin-left: calc(-1 * var(--gap-h));
+}
+
+.client__item {
+  flex-basis: calc(100% / 6 - var(--gap-h));
+  margin-left: var(--gap-h);
+}
+
+.client__icon {
+  @extend %fill-icon;
+}
+
+.client__link {
+  @include positioning-flex();
+  list-style: none;
+  margin: 0;
+  width: 170px;
+  height: 92px;
+  color: var(--color-icon-client);
+  background-color: var(--bg-client);
+  border: 1px solid var(--color-board-client);
+  border-radius: var(--radius-board-primary);
+
+  transition: color var(--duration-primary) var(--timing-primary),
+    border var(--duration-primary) var(--timing-primary);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+  }
+}

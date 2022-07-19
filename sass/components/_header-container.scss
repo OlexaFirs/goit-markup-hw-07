@@ -1,0 +1,11 @@
+.header__container {
+  @include positioning-flex($jc: left, $ai: stretch);
+}
+
+.container__logo {
+  margin-right: 93px;
+}
+
+.container__contact {
+  margin-left: auto;
+}

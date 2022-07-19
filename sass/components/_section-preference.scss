@@ -1,0 +1,34 @@
+.preference__section {
+  padding-bottom: 0;
+}
+.preference__list {
+  display: flex;
+  gap: var(--gap-h);
+}
+
+.preference__item {
+  flex-basis: 270px;
+}
+
+.preference__thumb {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-preference);
+  margin-bottom: 30px;
+}
+
+.preference__title {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--color-h-second);
+}
+
+.preference__text {
+  line-height: 1.71;
+  text-align: left;
+}

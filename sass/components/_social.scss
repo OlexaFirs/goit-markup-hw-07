@@ -1,0 +1,48 @@
+.social {
+  color: var(--primary-white-color);
+  &__list,
+  &__item {
+    @include positioning-flex();
+  }
+}
+
+.social__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social__cta {
+  @extend %footer-cta;
+}
+
+.social__icon {
+  @extend %fill-icon;
+}
+
+.social__link {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--bg-social-icon-footer);
+  padding: 12px;
+
+  transition: background-color var(--duration-primary) var(--timing-primary);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+
+  &--refill {
+    color: var(--color-icon-social-staff);
+    transition: color var(--duration-primary) var(--timing-primary);
+  }
+
+  &--refill:hover,
+  &--refill:focus {
+    color: var(--primary-white-color);
+  }
+}

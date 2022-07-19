@@ -1,0 +1,8 @@
+.section {
+  min-width: var(--width-container);
+  max-width: var(--width-page);
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
+  margin: 0 auto;
+  text-align: center;
+}

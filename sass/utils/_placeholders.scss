@@ -1,0 +1,26 @@
+%header-menu-indent {
+  margin-right: var(--margin-menu-item);
+}
+
+%header-menu-indent-last {
+  margin-right: 0;
+}
+
+%fill-icon {
+  display: block;
+  fill: currentColor;
+}
+
+%footer-cta {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+%title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--color-h-second);
+  margin-bottom: 50px;
+}
