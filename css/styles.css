@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196f3;
@@ -14,7 +14,7 @@
     --hero-background: #c4c4c4;
     --client-color: #afb1b8;
     --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* normalize */
 *,
