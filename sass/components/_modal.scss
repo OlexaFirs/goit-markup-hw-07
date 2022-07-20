@@ -10,7 +10,6 @@
   position: absolute;
   top: 8px;
   right: 8px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +22,6 @@
   border-radius: 50%;
   cursor: pointer;
   background-color: transparent;
-
   transition: color var(--duration-primary) var(--timing-primary);
 
   &:hover,
@@ -40,7 +38,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%) scale(0.2);
   opacity: 0;
 }
@@ -49,10 +46,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
-
   transition: opacity var(--duration-primary) var(--timing-primary),
     transform var(--duration-primary) var(--timing-primary);
 }

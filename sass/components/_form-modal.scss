@@ -12,7 +12,6 @@
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-
   color: var(--title-text-color);
   margin-bottom: 12px;
 }
@@ -28,7 +27,6 @@
   position: relative;
   width: 100%;
   margin-bottom: 10px;
-
   &:focus-within > .form__icon {
     fill: var(--accent-color);
   }
@@ -39,7 +37,6 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-
   color: var(--primary-text-color);
   padding: 0;
   margin-bottom: 4px;
@@ -50,10 +47,8 @@
   min-height: 40px;
   border: 1px solid var(--color-board-input-modal);
   border-radius: var(--radius-board-primary);
-
   padding-left: 42px;
   color: var(--primary-text-color);
-
   transition: border var(--duration-primary) var(--timing-primary);
 
   &:focus-within {
@@ -67,9 +62,7 @@
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-
   fill: var(--title-text-color);
-
   transition: fill var(--duration-primary) var(--timing-primary);
 }
 
@@ -77,15 +70,12 @@
   display: block;
   width: 100%;
   min-height: 120px;
-
   border: 1px solid var(--color-board-input-modal);
   border-radius: var(--radius-board-primary);
   color: var(--primary-text-color);
-
   padding: 12px 16px;
   margin: 0;
   resize: none;
-
   transition: border var(--duration-primary) var(--timing-primary);
 
   &:focus-within {
@@ -103,10 +93,8 @@
   align-items: center;
   margin-bottom: 30px;
   padding-left: 24px;
-
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: var(--primary-text-color);
 }
 
@@ -119,13 +107,10 @@
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-
   width: 16px;
   height: 15px;
   opacity: 1;
-
   transition: opacity var(--duration-primary) var(--timing-primary);
-
   .checkbox:checked ~ & {
     opacity: 0;
   }
@@ -136,13 +121,10 @@
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-
   width: 16px;
   height: 15px;
   opacity: 0;
-
   fill: var(--accent-color);
-
   transition: opacity var(--duration-primary) var(--timing-primary);
 
   .checkbox:checked ~ & {
