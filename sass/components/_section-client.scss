@@ -25,8 +25,7 @@
   color: var(--client-color);
   background-color: var(--bcg-client);
   border: 1px solid var(--color-board-client);
-  border-radius: var(--radius-board-primary);
-
+  border-radius: var(--radius-board);
   transition: color var(--duration-primary) var(--timing-primary),
     border var(--duration-primary) var(--timing-primary);
 

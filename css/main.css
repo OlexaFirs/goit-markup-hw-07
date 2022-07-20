@@ -38,7 +38,7 @@
   --padding-hero: 200px;
   --padding-modal: 40px;
   --padding-section: 94px;
-  --radius-board-primary: 4px;
+  --radius-board: 4px;
   --shadow-card-team: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   --shadow-btn: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -49,7 +49,7 @@
   --timing-primary: cubic-bezier(0.4, 0, 0.2, 1);
   --width-container: 1200px;
   --width-page: 1600px;
-  --width-form-modal: 448px;
+  --width-modal-form: 448px;
 }
 
 @font-face {
@@ -200,7 +200,7 @@ address {
           box-shadow: var(--shadow-btn);
   background-color: var(--accent-color);
   border: none;
-  border-radius: var(--radius-board-primary);
+  border-radius: var(--radius-board);
   cursor: pointer;
   -webkit-transition: background-color var(--duration-primary) var(--timing-primary);
   transition: background-color var(--duration-primary) var(--timing-primary);
@@ -487,7 +487,7 @@ address {
   position: relative;
   padding: var(--padding-modal);
   background-color: var(--primary-white-color);
-  border-radius: var(--radius-board-primary);
+  border-radius: var(--radius-board);
   -webkit-box-shadow: var(--shadow-modal);
           box-shadow: var(--shadow-modal);
 }
@@ -555,7 +555,7 @@ address {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: var(--width-form-modal);
+  width: var(--width-modal-form);
   text-align: left;
   padding: 0;
 }
@@ -601,7 +601,7 @@ address {
   width: 100%;
   min-height: 40px;
   border: 1px solid var(--color-board-input-modal);
-  border-radius: var(--radius-board-primary);
+  border-radius: var(--radius-board);
   padding-left: 42px;
   color: var(--primary-text-color);
   -webkit-transition: border var(--duration-primary) var(--timing-primary);
@@ -629,7 +629,7 @@ address {
   width: 100%;
   min-height: 120px;
   border: 1px solid var(--color-board-input-modal);
-  border-radius: var(--radius-board-primary);
+  border-radius: var(--radius-board);
   color: var(--primary-text-color);
   padding: 12px 16px;
   margin: 0;
@@ -884,7 +884,7 @@ address {
   color: var(--client-color);
   background-color: var(--bcg-client);
   border: 1px solid var(--color-board-client);
-  border-radius: var(--radius-board-primary);
+  border-radius: var(--radius-board);
   -webkit-transition: color var(--duration-primary) var(--timing-primary), border var(--duration-primary) var(--timing-primary);
   transition: color var(--duration-primary) var(--timing-primary), border var(--duration-primary) var(--timing-primary);
 }
@@ -1072,6 +1072,13 @@ address {
   line-height: 1.71;
   color: var(--primary-white-color);
   margin-bottom: 9px;
+  
+  
+}
+
+.address__link{
+  -webkit-transition: color var(--duration-primary) var(--timing-primary);
+  transition: color var(--duration-primary) var(--timing-primary);
 }
 
 .address__email {
@@ -1084,7 +1091,8 @@ address {
   transition: color var(--duration-primary) var(--timing-primary);
 }
 
-.address__email:hover, .address__email:focus {
+.address__email:hover, .address__email:focus,
+.address__link:hover, .address__link:focus{
   color: var(--accent-color);
 }
 
@@ -1136,7 +1144,7 @@ address {
   color: var(--color-input-footer);
   background-color: transparent;
   border: 1px solid var(--color-board-input-footer);
-  border-radius: var(--radius-board-primary);
+  border-radius: var(--radius-board);
 }
 
 .sign-up__icon {
