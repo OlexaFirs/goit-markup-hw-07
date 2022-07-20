@@ -29,9 +29,9 @@
   --duration-primary: 250ms;
   --font-family-primary: 'Roboto', sans-serif;
   --font-family-secondary: 'Raleway', sans-serif;
-  --font-size-primary: 14px;
-  --letter-spacing-primary: 0.03em;
-  --line-height-primary: 1.14;
+  --primary-font-size: 14px;
+  --primary-letter-spacing: 0.03em;
+  --primary-line-height: 1.14;
   --gap: 30px;
   --margin-menu-item: 50px;
   --padding-container: 15px;
@@ -96,9 +96,9 @@ body {
   font-family: var(--font-family-primary);
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-size: var(--font-size-primary);
-  letter-spacing: var(--letter-spacing-primary);
-  line-height: var(--line-height-primary);
+  font-size: var(--primary-font-size);
+  letter-spacing: var(--primary-letter-spacing);
+  line-height: var(--primary-line-height);
 }
 
 h1,
