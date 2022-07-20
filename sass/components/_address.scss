@@ -10,11 +10,12 @@
   margin-bottom: 9px;
 }
 
-.address__link{
+.address__link {
+  transition: color var(--duration-primary) var(--timing-primary);
   &:hover,
   &:focus {
-      color: var(--accent-color);
-    }
+    color: var(--accent-color);
+  }
 }
 
 .address__email {
