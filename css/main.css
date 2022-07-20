@@ -7,29 +7,24 @@
   --primary-text-color: #757575;
   --color-board-btn-close: rgba(0, 0, 0, 0.1);
   --color-board-card: #eeeeee;
-  --color-board-client: #afb1b8;
+  --client-color: #afb1b8;
+  --intermediate-background-color: #f5f4fa;
   --color-board-header: #ececec;
   --color-board-input-footer: rgba(255, 255, 255, 0.3);
   --color-board-input-modal: rgba(33, 33, 33, 0.2);
   --color-btn-close: #000000;
   --color-contact-footer: rgba(255, 255, 255, 0.6);
-  --color-icon-client: #afb1b8;
-  --color-icon-company: #afb1b8;
-  --color-icon-social-team: #afb1b8;
   --color-input-footer: rgba(255, 255, 255, 0.6);
   --color-logo-header: #000000;
   --color-placeholder-modal: rgba(117, 117, 117, 0.5);
-  --bcg-preference: #f5f4fa;
   --bcg-backdrop: rgba(0, 0, 0, 0.2);
   --bcg-btn-hover: #188ce8;
-  --bcg-btn-secondary: #f5f4fa;
   --bcg-client: transparent;
   --bcg-work: rgba(47, 48, 58, 0.8);
   --bcg-footer: #2f303a;
   --bcg-hero: #c4c4c4;
   --bcg-link-social-team: transparent;
   --bcg-overlay-card-portfolio: rgba(33, 150, 243, 0.9);
-  --bcg-section-team: #f5f4fa;
   --bcg-social-icon-footer: rgba(255, 255, 255, 0.1);
   --duration-primary: 250ms;
   --font-family-primary: 'Roboto', sans-serif;
@@ -271,7 +266,7 @@ address {
 }
 
 .social__link--refill {
-  color: var(--color-icon-social-team);
+  color: var(--client-color);
   -webkit-transition: color var(--duration-primary) var(--timing-primary);
   transition: color var(--duration-primary) var(--timing-primary);
 }
@@ -744,7 +739,7 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: var(--bcg-preference);
+  background-color: var(--intermediate-background-color);
   margin-bottom: 30px;
 }
 
@@ -802,7 +797,7 @@ address {
 }
 
 .team {
-  background-color: var(--bcg-section-team);
+  background-color: var(--intermediate-background-color);
 }
 
 .team__card-set {
@@ -886,7 +881,7 @@ address {
   margin: 0;
   width: 170px;
   height: 92px;
-  color: var(--color-icon-client);
+  color: var(--client-color);
   background-color: var(--bcg-client);
   border: 1px solid var(--color-board-client);
   border-radius: var(--radius-board-primary);
@@ -918,7 +913,7 @@ address {
 }
 
 .portfolio__button {
-  background-color: var(--bcg-btn-secondary);
+  background-color: var(--intermediate-background-color);
   color: var(--title-text-color);
   border: none;
   border-radius: 4px;
